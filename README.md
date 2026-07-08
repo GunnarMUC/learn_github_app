@@ -8,12 +8,12 @@
 
 [![CI](https://github.com/GunnarMUC/learn_github_app/actions/workflows/ci.yml/badge.svg)](https://github.com/GunnarMUC/learn_github_app/actions) [![Lint](https://github.com/GunnarMUC/learn_github_app/actions/workflows/lint.yml/badge.svg)](https://github.com/GunnarMUC/learn_github_app/actions)
 
-[![React](https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
-An interactive learning platform that teaches Git fundamentals, branching strategies, GitHub collaboration, and AI-assisted development. Features dark mode, quizzes with certificates, offline PWA support, full-text search, and keyboard navigation. Built with React 18, Vite, and Tailwind CSS. Originally by Wayne Trout, v2.0.0 extended by Gunnar Mueller.
+An interactive learning platform that teaches Git fundamentals, branching strategies, GitHub collaboration, and AI-assisted development. Features dark mode, quizzes with certificates, offline PWA support, full-text search, and keyboard navigation. Built with React 19, Vite, and Tailwind CSS. Originally by Wayne Trout, v2.0.0 extended by Gunnar Mueller.
 
 [View Demo](https://github.com/GunnarMUC/learn_github_app) • [Report Bug](https://github.com/GunnarMUC/learn_github_app/issues) • [Request Feature](https://github.com/GunnarMUC/learn_github_app/issues)
 
@@ -115,7 +115,7 @@ An interactive learning platform that teaches Git fundamentals, branching strate
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18, Vite
+- **Frontend**: React 19, Vite
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Build Tool**: Vite
