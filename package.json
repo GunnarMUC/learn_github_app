@@ -20,7 +20,7 @@
     "ai-assisted"
   ],
   "author": "Wayne Trout",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wtrout187/git_gihub_app.git"
+    "url": "https://github.com/GunnarMUC/learn_github_app.git"
   },
   "bugs": {
-    "url": "https://github.com/wtrout187/git_gihub_app/issues"
+    "url": "https://github.com/GunnarMUC/learn_github_app/issues"
   },
-  "homepage": "https://github.com/wtrout187/git_gihub_app#readme"
+  "homepage": "https://github.com/GunnarMUC/learn_github_app#readme"
 }

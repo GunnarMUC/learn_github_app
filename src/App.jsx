@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { secureStore, secureRetrieve, sanitizeInput } from './utils/security';
+import { ThemeProvider, DarkModeToggle } from './context/ThemeContext';
+import { SearchProvider, SearchBar } from './components/SearchBar';
+import { useKeyboard } from './hooks/useKeyboard';
+import Quiz from './components/Quiz';
+import GitGraph from './components/GitGraph';
 import {
   ChevronRight,
   Code,
@@ -88,6 +93,7 @@ const GitGitHubMasteryApp = () => {
 
   // UI state
   const [showConfetti, setShowConfetti] = useState(false);
+  const [quizMode, setQuizMode] = useState(null);
 
   /**
    * Trigger celebratory confetti animation
@@ -213,7 +219,14 @@ const GitGitHubMasteryApp = () => {
   };
 
   // Render current screen based on application state
-  if (currentStep === 'welcome') {
+  const kb = useKeyboard({
+    goHome: () => setCurrentStep('dashboard'),
+    toggleSearch: () => document.querySelector('[data-search]')?.click(),
+    toggleDark: () => document.querySelector('[aria-label*="mode"]')?.click(),
+    closeModal: () => setQuizMode(null),
+  });
+
+  if (quizMode) {
     return (
       <div className="app-container">
         <WelcomeScreen
@@ -265,7 +278,11 @@ const GitGitHubMasteryApp = () => {
           onResetProgress={resetProgress}
           showConfetti={showConfetti}
           setCurrentStep={setCurrentStep}
+          onStartQuiz={(course) => setQuizMode(course)}
         />
+        <React.Fragment>
+          {React.createElement(SearchBar)}
+        </React.Fragment>
       </div>
     );
   }
@@ -340,4 +357,17 @@ const GitGitHubMasteryApp = () => {
   );
 };
 
-export default GitGitHubMasteryApp;
+function WrappedApp() {
+  return React.createElement(ThemeProvider, null,
+    React.createElement(SearchProvider, { lessons: lessonsData },
+      React.createElement('div', { className: 'min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors' },
+        React.createElement(DarkModeToggle),
+        React.createElement(GitGitHubMasteryApp),
+        <div className="fixed bottom-4 left-4 z-40 bg-gray-900/80 dark:bg-gray-800/80 text-gray-400 text-xs px-3 py-2 rounded-lg backdrop-blur">
+        </div>
+      ),
+    ),
+  );
+}
+
+export default WrappedApp;

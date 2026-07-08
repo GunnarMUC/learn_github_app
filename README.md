@@ -4,14 +4,16 @@
 
 ![Git & GitHub Mastery App](https://img.shields.io/badge/Git%20%26%20GitHub-Mastery-blue?style=for-the-badge&logo=git)
 
+[![CI](https://github.com/GunnarMUC/learn_github_app/actions/workflows/ci.yml/badge.svg)](https://github.com/GunnarMUC/learn_github_app/actions) [![Lint](https://github.com/GunnarMUC/learn_github_app/actions/workflows/lint.yml/badge.svg)](https://github.com/GunnarMUC/learn_github_app/actions)
+
 [![React](https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
 An interactive learning platform that teaches Git fundamentals, branching strategies, GitHub collaboration, and AI-assisted development through hands-on lessons and practical exercises. Built with React 18, Vite, and Tailwind CSS, this app provides a comprehensive learning experience for developers of all skill levels.
 
-[View Demo](https://github.com/wtrout187/git_gihub_app) • [Report Bug](https://github.com/wtrout187/git_gihub_app/issues) • [Request Feature](https://github.com/wtrout187/git_gihub_app/issues)
+[View Demo](https://github.com/GunnarMUC/learn_github_app) • [Report Bug](https://github.com/GunnarMUC/learn_github_app/issues) • [Request Feature](https://github.com/GunnarMUC/learn_github_app/issues)
 
 </div>
 
@@ -131,7 +133,7 @@ The Git & GitHub Mastery App includes several security features to protect users
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/wtrout187/git_gihub_app.git
+   git clone https://github.com/GunnarMUC/learn_github_app.git
    cd git_gihub_app
    ```
 
