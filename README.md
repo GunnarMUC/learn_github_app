@@ -13,7 +13,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
-An interactive learning platform that teaches Git fundamentals, branching strategies, GitHub collaboration, and AI-assisted development through hands-on lessons and practical exercises. Built with React 18, Vite, and Tailwind CSS, this app provides a comprehensive learning experience for developers of all skill levels.
+An interactive learning platform that teaches Git fundamentals, branching strategies, GitHub collaboration, and AI-assisted development. Features dark mode, quizzes with certificates, offline PWA support, full-text search, and keyboard navigation. Built with React 18, Vite, and Tailwind CSS. Originally by Wayne Trout, v2.0.0 extended by Gunnar Mueller.
 
 [View Demo](https://github.com/GunnarMUC/learn_github_app) • [Report Bug](https://github.com/GunnarMUC/learn_github_app/issues) • [Request Feature](https://github.com/GunnarMUC/learn_github_app/issues)
 
@@ -21,18 +21,27 @@ An interactive learning platform that teaches Git fundamentals, branching strate
 
 ## 🚀 Features
 
+### v2.0.0 (New)
+- **🌙 Dark Mode**: System-preference-aware dark/light mode with toggle
+- **📝 Quiz & Certificates**: End-of-module quizzes with downloadable PNG certificates
+- **📱 PWA Offline**: Install as Progressive Web App, works without internet
+- **🔍 Full-Text Search**: Search across all lessons and courses (shortcut `s`)
+- **⌨️ Keyboard Navigation**: `j`/`k` for navigation, `s` for search, `?` for shortcuts
+- **📄 PDF Export**: One-click PDF download for all cheat sheets
+- **🌿 Git Visualizations**: Interactive branch graph animations (Canvas-based)
+- **🛡️ Professionalized**: Apache 2.0 license, CI/Lint badges, security audit, Dependabot
+
+### Core Features
 - **Interactive Learning Modules**: 4 comprehensive courses covering Git fundamentals to AI-assisted development
 - **Video Tutorials**: Integrated video lessons for visual learners with each module
 - **Interactive Terminal**: Hands-on practice with simulated command-line exercises and real-time feedback
 - **Coding Exercises**: Interactive exercises to test your understanding with immediate feedback
 - **Progress Tracking**: Monitor your learning journey with achievements and progress indicators
 - **Personalized Experience**: Customized learning paths based on your experience level and goals
-- **Modern UI**: Beautiful, fully responsive interface with Instagram-like feel, gradient backgrounds, dynamic theming and animations for all devices
+- **Modern UI**: Beautiful, fully responsive interface with dark mode, gradient backgrounds, dynamic theming
 - **AI Integration**: Learn modern AI-assisted development workflows
-- **Comprehensive Resources**: In-depth Git and GitHub documentation, cheat sheets, and command reference
-- **Visual Learning Path**: Clear visualization of your learning journey and progress
+- **Comprehensive Resources**: Git/GitHub documentation, cheat sheets, and command reference
 - **Community Wiki**: User-contributed tips, tricks, and resources for collaborative learning
-- **Security Features**: Built-in protection for user data and content
 
 ## 📚 Course Structure
 
@@ -271,73 +280,48 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📸 Screenshots
-
-<div align="center">
-
-### Welcome Screen
-<img src="public/screenshots/WelcomeG&GA.png" alt="Welcome Screen" width="800">
-
-### Learning Dashboard
-<img src="public/screenshots/DashboardG&GA.png" alt="Dashboard" width="800">
-
-### Interactive Lessons
-<img src="public/screenshots/InteractiveLessonG&GA.png" alt="Interactive Lessons" width="800">
-
-### Community Wiki
-<img src="public/screenshots/WikiG&GA.png" alt="Community Wiki" width="800">
-
-</div>
+This project is licensed under Apache 2.0 — see the [LICENSE](LICENSE) file for details.
 
 ## 💡 Roadmap
 
-- [x] Add more interactive exercises and coding challenges
-- [x] Add AI-assisted learning features
-- [x] Expand the community wiki with more resources
-- [x] Enhance UI with Instagram-like feel and modern design
-- [x] Add real-time likes and comments functionality for community interaction
-- [ ] Implement user authentication and cloud progress saving
-- [ ] Create a mobile app version
-- [ ] Support for multiple languages
-- [ ] Add GitHub OAuth integration
-- [ ] Create a real-time collaboration feature
+### ✅ Completed
+- [x] Dark mode with system-preference detection
+- [x] Quiz mode with downloadable certificates
+- [x] PWA offline support with service worker
+- [x] Full-text search across all lessons
+- [x] Keyboard navigation shortcuts
+- [x] PDF export for cheat sheets
+- [x] Interactive Git branch visualizations
+- [x] Professionalized repo (CI/Lint/Dependabot/Audit)
+- [x] More interactive exercises and coding challenges
+- [x] AI-assisted learning features
+- [x] Community wiki with resources
+- [x] Instagram-like UI with modern design
+
+### 🔜 Planned
+- [ ] User authentication and cloud progress saving
+- [ ] Mobile app version (React Native)
+- [ ] Multi-language support (i18n)
+- [ ] GitHub OAuth integration
+- [ ] Real-time collaboration features
 
 ## 🙏 Acknowledgments
 
-- Built with modern React and Vite
+- **Original author: [Wayne Trout](https://github.com/wtrout187)** — created v1.0.0
+- **v2.0.0: [Gunnar Mueller](https://github.com/GunnarMUC)** — dark mode, quizzes, PWA, search, keyboard nav, professionalization
+- Built with React + Vite
 - Icons by [Lucide](https://lucide.dev/)
 - Styling with [Tailwind CSS](https://tailwindcss.com/)
 - Inspired by the need for practical Git education
-- Proudly part of the [AI Masters Community](https://www.skool.com/edward-honour) by Edward Honour
-- **Created by [Wayne Trout](https://github.com/wtrout187)** as a portfolio project
-
-## ❤️ Support the Project
-
-If you find this project helpful, please consider:
-
-- Giving it a star on GitHub ⭐
-- Sharing it with friends and colleagues
-- Contributing to the project
-
-<a href="https://www.buymeacoffee.com/waynetrout" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
-</a>
 
 ## 📞 Support & Feedback
 
-If you have questions, need help, or want to provide feedback:
-- Email us at troutwayne@gmail.com
-- Open an issue on GitHub
-- Check our documentation
-- Join our community discussions
+- Open an issue on [GitHub](https://github.com/GunnarMUC/learn_github_app/issues)
+- Check our [documentation](https://github.com/GunnarMUC/learn_github_app#readme)
 
 ---
 
 **Happy Learning! 🎉**
 
-Master Git & GitHub like a pro and elevate your development workflow with AI-assisted tools.
-
-© 2024 Wayne Trout. All rights reserved.
+© 2024 Wayne Trout. © 2026 Gunnar Mueller. Apache 2.0 License.
 
