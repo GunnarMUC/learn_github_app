@@ -1,5 +1,7 @@
 # Git & GitHub Mastery App
 
+**Originally by Wayne Trout · v2.0.0 Extended by Gunnar Mueller**
+
 <div align="center">
 
 ![Git & GitHub Mastery App](https://img.shields.io/badge/Git%20%26%20GitHub-Mastery-blue?style=for-the-badge&logo=git)

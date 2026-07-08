@@ -1,7 +1,7 @@
 {
   "name": "git-mastery-app",
-  "version": "1.0.0",
-  "description": "An interactive Git learning platform with AI-assisted development features",
+  "version": "2.0.0",
+  "description": "An interactive Git learning platform with dark mode, quizzes, PWA, and AI-assisted development",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -19,7 +19,7 @@
     "vite",
     "ai-assisted"
   ],
-  "author": "Wayne Trout",
+  "author": "Wayne Trout & Gunnar Mueller",
   "license": "Apache-2.0",
   "dependencies": {
     "lucide-react": "^0.294.0",

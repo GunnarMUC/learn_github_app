@@ -60,7 +60,7 @@ import { lessonsData } from './data/lessons';
  *
  * This is an interactive learning platform that teaches Git fundamentals,
  * branching strategies, GitHub collaboration, and AI-assisted development.
- * Created by Wayne Trout as part of the AI Masters Community.
+ * Originally created by Wayne Trout. v2.0.0 extended by Gunnar Mueller with dark mode, quizzes, PWA, search, and keyboard navigation.
  * 
  * GitHub Repository: https://github.com/wtrout187/git_gihub_app
  *
