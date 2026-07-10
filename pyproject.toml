@@ -9,6 +9,7 @@ description = "An interactive Git learning platform with AI-assisted development
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
+    { name = "Gunnar Müller" },
     {name = "Wayne Trout", email = "waynetrout@example.com"}
 ]
 keywords = ["git", "learning", "education", "react", "vite", "ai-assisted"]
