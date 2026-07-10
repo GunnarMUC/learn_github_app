@@ -47,5 +47,8 @@
   "bugs": {
     "url": "https://github.com/GunnarMUC/learn_github_app/issues"
   },
-  "homepage": "https://github.com/GunnarMUC/learn_github_app#readme"
+  "homepage": "https://github.com/GunnarMUC/learn_github_app#readme",
+  "contributors": [
+    "Gunnar M\u00fcller"
+  ]
 }
